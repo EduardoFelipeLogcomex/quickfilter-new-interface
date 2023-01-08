@@ -4,7 +4,7 @@ import { join } from 'path'
 
 const connection = knex({
   connection: {
-   connectionString: 'postgres://usr_plataformabi:JWYN%Q3YWFhh%r$@db_plataformabi.logcomex.io:5432/plataformabi',
+   connectionString: '',
   },
   client: 'postgres'
 })
