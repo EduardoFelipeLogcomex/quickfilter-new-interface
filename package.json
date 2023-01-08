@@ -1,0 +1,25 @@
+{
+  "name": "quickfilter-new-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clear": "rimraf -rf ./dist/",
+    "compile": "npm run clear && npx tsc",
+    "compile:watch": "npm run clear && npx tsc --watch",
+    "start": "node ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "pg": "^8.8.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "knex": "^2.3.0",
+    "postgres": "^3.3.2"
+  }
+}
